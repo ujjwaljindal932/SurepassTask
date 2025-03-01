@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/SurepassTask/static/css/main.c98fc9b8.css",
+    "main.js": "/SurepassTask/static/js/main.e3a802f8.js",
+    "static/js/977.5e66e10f.chunk.js": "/SurepassTask/static/js/977.5e66e10f.chunk.js",
+    "static/js/732.6d88c77a.chunk.js": "/SurepassTask/static/js/732.6d88c77a.chunk.js",
+    "index.html": "/SurepassTask/index.html",
+    "main.c98fc9b8.css.map": "/SurepassTask/static/css/main.c98fc9b8.css.map",
+    "main.e3a802f8.js.map": "/SurepassTask/static/js/main.e3a802f8.js.map",
+    "732.6d88c77a.chunk.js.map": "/SurepassTask/static/js/732.6d88c77a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c98fc9b8.css",
+    "static/js/main.e3a802f8.js"
+  ]
+}

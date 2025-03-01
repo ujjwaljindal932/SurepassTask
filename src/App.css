@@ -13,6 +13,21 @@ body {
 }
 
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #f8f9fa;
+    color: #2c3e50;
+    line-height: 1.6;
+}
+
+
 .App {
     display: flex;
     flex-direction: column;
@@ -54,6 +69,59 @@ body {
     border: none;
     color: white;
 }
+
+
+.btn-primary:hover {
+    background: linear-gradient(45deg, #3f44b5, #7a7fe9);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(78, 84, 200, 0.2);
+}
+
+
+.form-control {
+    border-radius: 8px;
+    border: 1px solid #e1e8ef;
+    padding: 12px;
+    transition: all 0.3s ease;
+}
+
+
+.form-control:focus {
+    border-color: #4e54c8;
+    box-shadow: 0 0 0 3px rgba(78, 84, 200, 0.1);
+}
+
+
+.table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 8px;
+}
+
+
+.table th {
+    background: #f8f9fa;
+    padding: 12px;
+    font-weight: 600;
+    color: #2c3e50;
+}
+
+
+.table td {
+    padding: 12px;
+    vertical-align: middle;
+}
+
+
+.badge {
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-weight: 500;
+    font-size: 0.85rem;
+}
+
+
+
 
 
 .btn-primary:hover {

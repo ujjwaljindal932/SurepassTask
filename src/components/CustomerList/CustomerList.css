@@ -1,0 +1,143 @@
+.customer-list-container {
+    background: white;
+    border-radius: 12px;
+    padding: 25px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+
+.list-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+
+.customer-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 10px;
+}
+
+
+.customer-table th {
+    background: #f8f9fa;
+    padding: 15px;
+    color: #2c3e50;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    letter-spacing: 0.5px;
+}
+
+
+.customer-table td {
+    background: white;
+    padding: 15px;
+    border-top: 1px solid #f1f1f1;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+
+.customer-table tr td:first-child {
+    border-left: 1px solid #f1f1f1;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+
+.customer-table tr td:last-child {
+    border-right: 1px solid #f1f1f1;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+
+.status-badge {
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-weight: 500;
+    font-size: 0.85rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}
+
+
+.status-badge.paid {
+    background: #e3f9e5;
+    color: #1b874b;
+}
+
+
+.status-badge.pending {
+    background: #fff8e6;
+    color: #b25e00;
+}
+
+
+.status-badge.draft {
+    background: #f1f5f9;
+    color: #475569;
+}
+
+
+.empty-state {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+
+.empty-state-icon {
+    font-size: 3rem;
+    color: #94a3b8;
+    margin-bottom: 20px;
+}
+
+
+.empty-state-text {
+    color: #64748b;
+    margin-bottom: 25px;
+}
+
+
+.add-bill-btn {
+    padding: 12px 24px;
+    background: linear-gradient(45deg, #4e54c8, #8f94fb);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+
+.add-bill-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(78, 84, 200, 0.3);
+}
+
+
+@media (max-width: 768px) {
+    .customer-list-container {
+        padding: 15px;
+        margin: -15px;
+        border-radius: 0;
+    }
+
+
+    .list-header {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+
+    .customer-table {
+        font-size: 0.9rem;
+    }
+}
+

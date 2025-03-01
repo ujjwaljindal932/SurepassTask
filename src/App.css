@@ -1,38 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #f8f9fa;
+    color: #2c3e50;
+    line-height: 1.6;
+}
+
+
 .App {
-  text-align: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+/* Common Styles */
+.card {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+.btn {
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
 }
 
-.App-link {
-  color: #61dafb;
+
+.btn i {
+    font-size: 1.1rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.btn-primary {
+    background: linear-gradient(45deg, #4e54c8, #8f94fb);
+    border: none;
+    color: white;
 }
+
+
+.btn-primary:hover {
+    background: linear-gradient(45deg, #3f44b5, #7a7fe9);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(78, 84, 200, 0.2);
+}
+
+
+.form-control {
+    border-radius: 8px;
+    border: 1px solid #e1e8ef;
+    padding: 12px;
+    transition: all 0.3s ease;
+}
+
+
+.form-control:focus {
+    border-color: #4e54c8;
+    box-shadow: 0 0 0 3px rgba(78, 84, 200, 0.1);
+}
+
+
+.table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 8px;
+}
+
+
+.table th {
+    background: #f8f9fa;
+    padding: 12px;
+    font-weight: 600;
+    color: #2c3e50;
+}
+
+
+.table td {
+    padding: 12px;
+    vertical-align: middle;
+}
+
+
+.badge {
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-weight: 500;
+    font-size: 0.85rem;
+}
+
+
+
+
